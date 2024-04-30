@@ -1,1 +1,10 @@
-sghshah
+git clone [forked repo]
+cd reponame
+git remote -v
+git remote add upstream actualrepo
+git remote -v
+git fetch upstream
+git remote -v
+git branch
+git merge upstream/main
+git push origin develop
